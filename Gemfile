@@ -14,7 +14,10 @@ gem 'airbrake'       # Error notifications
 
 gem 'logger'
 gem 'wannabe_bool'
+gem 'dotenv'
 gem 'foreman'        # Process manager
+
+gem 'phone'
 
 group :test do
   gem 'minitest'       # Test framework

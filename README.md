@@ -21,6 +21,7 @@ Now, you can comfortably walk around, visit the food trucks in Dewey Square, or 
 - Let users say the name of the line, and use fuzzy text search and a confirmation dialogue to look up trips.
 - After their first trip has departed the station, ask if they want to get recurring updates, if this is a common commute for them.
 - Set up a worker to poll the data more frequently.
+- Support multiple languages.
 
 
 
