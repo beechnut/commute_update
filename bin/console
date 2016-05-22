@@ -2,7 +2,7 @@
 
 print '----> Starting frameworkless console'
 require './environment'
-print " in #{DATABASE_ENV} environment.\n"
+print " in #{RACK_ENV} environment.\n"
 require 'irb'
 
 ARGV.clear

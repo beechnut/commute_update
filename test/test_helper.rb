@@ -26,7 +26,6 @@ MiniTest.after_run do
   WebMock.disable_net_connect!(allow: %w{ codeclimate.com })
 end
 
-ENV['DATABASE_ENV'] = 'test'
 ENV['RACK_ENV'] = 'test'
 
 require './environment'

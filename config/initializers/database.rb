@@ -21,7 +21,7 @@ module Initializers
     end
 
     def self.environment
-      ENV.fetch('DATABASE_ENV') { 'development' }
+      ENV.fetch('RACK_ENV') { 'development' }
     end
 
   end

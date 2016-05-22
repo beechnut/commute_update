@@ -1,3 +1,5 @@
+require 'active_support/inflector'
+
 module Initializers
 
   def self.load

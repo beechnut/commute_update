@@ -1,5 +1,5 @@
 development: &default
-  adapter:  postgis
+  adapter:  postgresql
   encoding: unicode
   database: mbcr_development
   host:     localhost
