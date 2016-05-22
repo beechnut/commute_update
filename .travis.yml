@@ -1,0 +1,15 @@
+language: ruby
+sudo: false
+rvm:
+  - 2.3.1
+env:
+  - DATABASE_ENV=test RACK_ENV=test
+before_script:
+  - bundle exec rake db:create
+  - bundle exec rake db:migrate
+bundler_args: --without development
+cache: bundler
+addons:
+  postgresql: '9.4'
+  code_climate:
+    repo_token: TODO
