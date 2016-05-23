@@ -1,6 +1,9 @@
 require 'phone'
 class User < ActiveRecord::Base
 
+  has_many :subscriptions
+  has_many :trips, through: :subscriptions
+
   validates :phone, presence: true
   validate  :valid_phone
 

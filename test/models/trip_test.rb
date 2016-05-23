@@ -29,4 +29,12 @@ class TripTest < Minitest::Test
     @duplicate_trip.destroy!
   end
 
+  def test_subscriptions
+    assert_respond_to trip, :subscriptions
+  end
+
+  def test_subscribers
+    assert_respond_to trip, :subscribers
+  end
+
 end

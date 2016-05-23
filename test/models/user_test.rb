@@ -20,4 +20,12 @@ class UserTest < Minitest::Test
     refute user.valid?
   end
 
+  def test_subscriptions
+    assert_respond_to user, :subscriptions
+  end
+
+  def test_trips
+    assert_respond_to user, :trips
+  end
+
 end
