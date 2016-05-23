@@ -17,7 +17,8 @@ gem 'wannabe_bool'
 gem 'dotenv'
 gem 'foreman'        # Process manager
 
-gem 'phone'
+gem 'phone'          # Parse and validate phone numbers
+gem 'twilio-ruby'    # Send & receive SMS
 
 group :test do
   gem 'minitest'       # Test framework
